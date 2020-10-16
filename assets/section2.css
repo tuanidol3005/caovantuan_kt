@@ -1,0 +1,42 @@
+.section2-wrapper {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(239, 239, 239);
+    margin: 10px 0;
+}
+
+.section-title {
+    border-bottom: 2px solid #00252d;
+    position: relative;
+}
+
+.section-title h3 {
+    font-size: 1.1rem;
+    color: rgb(5, 82, 99);
+    text-transform: uppercase;
+}
+
+.section-title a {
+    font-size: 14px;
+    margin-left: auto;
+    font-weight: 400;
+    color: #00252d;
+    right: 0;
+    position: absolute;
+    top: 0;
+}
+.gallery-item {
+    margin-top: 7px;
+}
+.gallery-item img {
+    width: 110%;
+    height: auto;
+}
+
+.gallery-item .title {
+    font-size: .85rem;
+    display: block;
+    color: #000;
+    margin: 7px 0;
+    font-weight: 500;
+}

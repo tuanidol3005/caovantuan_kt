@@ -1,0 +1,107 @@
+.footer {
+    background-image: url(img/bg-news1.jpg);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid #ccc;
+}
+
+.footer-title {
+    color: #353535;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.footer-content p {
+    font-size: .85rem;
+}
+
+.footer-list {
+    display: flex;
+}
+
+.icon-inner img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.icon-inner-md img {
+    width: 45px;
+    margin-right: 10px;
+}
+
+.footer-link-list ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-link-list ul li {
+    list-style: none;
+    position: relative;
+    padding: 7px 0px 7px 0;
+    margin: 0;
+    border-bottom: 1px solid #ececec;
+}
+
+.footer-link-list ul li::before {
+    content: "\f105";
+    font-family: FontAwesome;
+    padding-right: 15px;
+    color: #aeacac;
+}
+
+.footer-link-list ul li a{
+    color: #334862;
+    text-decoration: none;
+    font-size: .9rem;
+}
+
+img.logo-bct {
+    width: 170px;
+}
+
+.copyright {
+    background: #00252d;
+    color: #d5d5d5;
+    font-size: .85rem;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.social {
+    height: 45px;
+}
+
+.social > .icon {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: tomato;
+    color: white;
+    border-radius: 50%;
+    float: left;
+    margin-right: 7px;
+}
+
+.social > .icon > .icon-facebook {
+    background: #3a589d;
+}
+
+.social > .icon > .icon-mail {
+    background: #333;
+}
+
+.social > .icon > .icon-phone {
+    background: #51cb5a;
+}
+
+.social > .icon > .icon-yt {
+    background: #c33223 ;
+}
+
+.social > .icon > .icon-github {
+    background: #000;
+}

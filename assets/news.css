@@ -1,0 +1,38 @@
+.news-wrapper {
+    padding: 15px 0;
+}
+.gallery2-item .img {
+    width: 30%;
+    float: left;
+    height: 100px;
+    overflow: hidden;
+}
+
+.gallery2-item .img img {
+    width: auto;
+    height: 100%;
+}
+
+.gallery2-item .content{
+    width: 70%;
+    float: left;
+    padding-left: 10px;
+}
+
+.gallery2-item .content h3 {
+    font-size: .95rem;
+    color: #000;
+    border-bottom: 1px solid #dfdfdf;
+    padding-bottom: 10px;
+}
+
+.gallery2-item .content span {
+    font-size: .8rem;
+    color: #818181;
+}
+
+.gallery2-item {
+    margin-bottom: 5px;
+    display: flex;
+    margin-top: 10px;
+}

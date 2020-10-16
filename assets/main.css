@@ -1,0 +1,17 @@
+@import url("header.css");
+@import url("banner.css");
+@import url("section1.css");
+@import url("section2.css");
+@import url("section3.css");
+@import url("reason.css");
+@import url("news.css");
+@import url("footer.css");
+
+body {
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+}

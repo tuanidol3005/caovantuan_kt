@@ -1,0 +1,5 @@
+.ads-col iframe, .ads-col img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+}
